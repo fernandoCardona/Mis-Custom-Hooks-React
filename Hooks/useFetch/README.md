@@ -1,11 +1,5 @@
 Ejemplo de uso:
-
 ```
-    const initialForm = {
-        name '',
-        edad: 0,
-        email: ''
-    }
-    
-    const [ values, handleInputChange, reset ] = useForm(initialForm);
+    const url = 'end_point de una Api';
+    const { data: null, loading:true, error: null } = useFetch(url);
 ```
