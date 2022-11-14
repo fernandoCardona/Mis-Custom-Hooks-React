@@ -21,5 +21,15 @@ coleccionRef
     .onsnapshot( snap =>{
         mostrarDocumentos( snap );
     })
-    //Version corta 
+
+    
+    //Version corta :
+    //--------------
     //coleccionRef( mostrarDocumentos);
+
+
+
+//Sin realTime:  
+//--------------
+//coleccionRef
+//    .get().then( snap => mostrarDocumentos( snap ) );
