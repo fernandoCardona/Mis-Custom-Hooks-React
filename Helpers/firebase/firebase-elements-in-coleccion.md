@@ -22,14 +22,14 @@ coleccionRef
         mostrarDocumentos( snap );
     })
 
-    
+
     //Version corta :
     //--------------
     //coleccionRef( mostrarDocumentos);
 
 
 
-//Sin realTime:  
+//Sin realTime de los cambios:  
 //--------------
 //coleccionRef
 //    .get().then( snap => mostrarDocumentos( snap ) );
