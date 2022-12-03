@@ -1,0 +1,1 @@
+En la ventana de visual studio Code presiona " comnd + shift + P ", en el buscador "Configure user snippets" en el archivo "javascriptreact.json " pegar el contenido de los snippets entre las llaves.

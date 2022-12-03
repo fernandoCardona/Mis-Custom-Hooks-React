@@ -1,0 +1,44 @@
+{
+
+	"React-Redux useDispatch": {
+		"prefix": "useDispatch",
+		"body": [
+			"const dispatch = useDispatch();"
+		],
+		"description": "Crea el useDispatch de React Redux"
+	},
+
+	"React-Redux useSelector": {
+		"prefix": "useSelector",
+		"body": [
+			"const state = useSelector( state => state );"
+		],
+		"description": "Crea el useSelector de React Redux"
+	},
+
+	"Crear un slice de Redux": {
+		"prefix": "redux-slice",
+		"body": [
+		   "import { createSlice } from '@reduxjs/toolkit';",
+		   "",
+		   "export const ${1:template}Slice = createSlice({",
+		   "     name: 'name',",
+		   "     initialState: {",
+		   "         counter: 10",
+		   "     },",
+		   "     reducers: {",
+		   "         increment: (state, /* action */ ) => {",
+		   "            state.counter += 1;",
+		   "         },",
+		   "     }",
+		   "});",
+		   "",
+		   "",
+		   "// Action creators are generated for each case reducer function",
+		   "export const { increment } = ${1:template}Slice.actions;"
+		],
+		"description": "Crear un slice de Redux"
+   }
+
+
+}
